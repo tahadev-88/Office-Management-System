@@ -1,0 +1,12 @@
+{
+  "name": "digitazio-panel",
+  "version": "1.0.0",
+  "description": "Digitazio Task Management Panel",
+  "scripts": {
+    "build-css": "tailwindcss -i ./css/style.css -o ./css/output.css --watch",
+    "build": "tailwindcss -i ./css/style.css -o ./css/output.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
